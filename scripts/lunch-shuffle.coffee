@@ -56,6 +56,3 @@ module.exports = (robot) ->
       message = '誰もエントリーしてませんでした。。'
 
     msg.send message
-
-
-
