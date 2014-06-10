@@ -28,5 +28,9 @@
   "engines": {
     "node": ">= 0.8.x",
     "npm": ">= 1.1.x"
+  },
+  "devDependencies": {
+    "cron": "^1.0.4",
+    "time": "^0.11.0"
   }
 }
