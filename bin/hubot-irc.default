@@ -4,8 +4,8 @@ export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 
 npm install
 
-export PORT=9998
 export HUBOT_IRC_SERVER="irc.example.jp" # サーバ名
+export HUBOT_IRC_PORT=6668 # ポート
 export HUBOT_IRC_ROOMS="#lunch_shuffle" # channel
 export HUBOT_IRC_NICK="lunch-master-hubot" # ニックネーム
 export HUBOT_IRC_PASSWORD="XXXXX" # パスワード
