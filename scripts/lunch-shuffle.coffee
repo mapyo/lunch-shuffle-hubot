@@ -65,7 +65,7 @@ module.exports = (robot) ->
           messages[set-1] = messages[set-1] + luncher + 'さん '
 
         messages.forEach (message) ->
-          msg.send message
+          robot.send {room:process.env.HUBOT_IRC_ROOMS}, message
 
         robot.send {room:process.env.HUBOT_IRC_ROOMS}, "最後の人、２人以下になってしまった場合は、上の人と合流してください〜。"
         robot.send {room:process.env.HUBOT_IRC_ROOMS}, "何かバグがあったらすみません(ﾉ´∀｀*)"
